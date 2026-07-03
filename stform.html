@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee website| CodingSanjay</title>
+    <!-- linking font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Linking swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header / navbar -->
+    <header>
+       <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+            <h2 class="logo-text">☕Coffee</h2>
+        </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu" class="nav-link">menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials" class="nav-link">testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a href="#gallery" class="nav-link">gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">contact</a>
+                </li>
+        </ul>
+
+         <button id="menu-open-button" class="fas fa-bars"></button>
+    </header> 
+
+    <main>
+        <!-- hero section -->
+       <section class="hero-section">
+        <div class="section-content">
+           <div class="hero-details">
+            <h2 class="title">best coffee</h2>
+            <h3 class="subtitle">make your day great with our special coffee!</h3>
+            <p class="description">welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+            <div class="buttons">
+                <a href="#" class="button order-now">Order Now</a> 
+                  <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+           </div>
+           <div class="hero-image-wrapper">
+            <img src="—Pngtree—flying cup of coffee with_15739217.png" alt="hero"
+            class="hero-image">
+           </div>
+       </section>
+
+       <!-- About section -->
+        <center>
+         <section class="about-section" id="about">
+            <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="image2.jpg" alt="about" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="text">We are a passionate team of coffee enthusiasts dedicated to bringing you the finest quality coffee beans and creating a cozy atmosphere for you to enjoy.</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+         </section></center>
+<section class="menu-section" id="menu">
+    <h2 class="section-title">Our Menu</h2>
+    <div class="section-content">
+        <ul class="menu-list" id="menuList"></ul>
+    </div>
+</section>
+        <!-- Testimonials section -->
+                <section class="testimonials-section" id="testimonials">
+                    <h2 class="section-title">Testimonials</h2>
+                    <div class="section-content">
+                        <div class="slider-container swiper">
+                            <div class="slider-wrapper">
+                                <ul class="testimonials-list swiper-wrapper">
+                                    <li class="testimonial swiper-slide">
+                                        <img src="suriya.jpg" alt="user" class="user-image">
+                                        <h3 class="name">Suriya</h3>
+                                        <i class="feedback">" intense physical transformation, deep emotional commitment, and method acting"</i>
+                                    </li>
+                                    <li class="testimonial swiper-slide">
+                                        <img src="vijay.jpg" alt="user" class="user-image">
+                                        <h3 class="name">Vijay</h3>
+                                        <i class="feedback">"Thalapathy Vijay's journey from a young actor facing early-career criticism to one of India's biggest stars ."</i>
+                                    </li>
+                                    <li class="testimonial swiper-slide">
+                                        <img src="rajinikanth.jpg" alt="user" class="user-image">
+                                        <h3 class="name">Rajini kanth</h3>
+                                        <i class="feedback">"Rajinikanth's journey from a bus conductor to one of India’s most iconic superstars is built on immense dedication and grind."</i>
+                                    </li>
+                                    <li class="testimonial swiper-slide">
+                                        <img src="vikram.jpg" alt="user" class="user-image">
+                                        <h3 class="name">Vikram</h3>
+                                        <i class="feedback">"Vikram is widely regarded as one of the most dedicated method actors in Indian cinema."</i>
+                                    </li>
+                                    <li class="testimonial swiper-slide">
+                                        <img src="dhanush-1.jpg" alt="user" class="user-image">
+                                        <h3 class="name">Dhanush</h3>
+                                        <i class="feedback">"Dhanush is widely celebrated in the film industry for his sheer versatility and relentless hard work"</i>
+                                    </li>
+                                </ul>
+
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-slide-button
+                                swiper-button-prev"></div>
+                                <div class="swiper-slide-button
+                                swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+         <!-- Gallery section -->  
+<section class="gallery-section" id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="section-content">
+        <ul class="gallery-list">
+            <li class="gallery-item">
+                <img src="snacks7.jpg" alt="Gallery" class="gallery-image">
+            </li>
+             <li class="gallery-item">
+                <img src="snacks1.jpg" alt="Gallery" class="gallery-image">
+            </li>
+             <li class="gallery-item">
+                <img src="snacks2.jpg" alt="Gallery" class="gallery-image">
+            </li>
+             <li class="gallery-item">
+                <img src="snacks3.jpg" alt="Gallery" class="gallery-image">
+            </li>
+             <li class="gallery-item">
+                <img src="snacks4.jpg" alt="Gallery" class="gallery-image">
+            </li>
+             <li class="gallery-item">
+                <img src="snacks5.jpg" alt="Gallery" class="gallery-image">
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--Contact section-->
+<section class="contact-section" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="section-content">
+        <ul class="contact-info-list">
+            <li class="contact-info">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <p>123 Campsite Avenue,Wilderness, CA 98765</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-regular fa-envelope"></i>
+                <p>sanjay@coffeeshopwebsite.com</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-solid fa-phone"></i>
+                <p>(123) 456-78909</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-regular fa-clock"></i>
+                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-regular fa-clock"></i>
+                <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-regular fa-clock"></i>
+                <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-solid fa-globe"></i>
+                <p>www.codingsanjayweb.com</p>
+            </li>
+        </ul>
+
+        <form action="formperson.php" method="POST" class="contact-form" autocomplete="off">
+            <input type="text" name="Your_name" placeholder="Your_name" class="form-input" required>
+            <input type="email" name="Your_email" placeholder="Your_email" class="form-input" required>
+            <textarea name="Your_message" placeholder="Your_message" class="form-input" required></textarea>
+            <button type="submit" name="Submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer section -->
+<footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text"> 2026 coffee shop</p>
+
+        <div class="social-link-list">
+             <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-x-twitter"></i></a>
+        </div>
+
+        <p class="policy-text">
+        <a href="#" class="policy-link">Privacy policy</a>
+        <span class="separator"></span>
+         <a href="#" class="policy-link">Refund policy</a>
+        </p>
+    </div>
+
+</footer>
+    </main>
+
+    <!-- Linking swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
+    </script>
+
+      <!-- Linking custom script -->
+     <script src="script.js"></script>
+</body>
+
+</body>
+</html>
