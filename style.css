@@ -275,7 +275,7 @@ header .navbar {
 }
 
 .menu-section .menu-list .menu-item .menu-image {
-    max-width: 80%;
+    max-width: 83%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
@@ -288,7 +288,7 @@ header .navbar {
 }
 
 .menu-section .menu-list .menu-item .text {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
 }
 
 /* Testimonials section styling */
