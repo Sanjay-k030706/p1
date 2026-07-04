@@ -249,35 +249,32 @@ header .navbar {
 
 }
 
-.menu-section {
-    color: white;
-    background: #252525;
-    padding: 50px 0 100px;
-}
-
-.menu-list {
+.menu-section { 
+    color: var(--white-color);
+    background: var(--dark-color); 
+    padding: 50px 0 100px; 
+} 
+.menu-section .menu-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: space-between;
-}
-
-.menu-item {
-    width: calc(33.33% - 40px);
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; 
+    gap: 110px; align-items: center;
+    justify-content: space-between; 
+} 
+.menu-section .menu-list .menu-item {
+    display: flex; 
     align-items: center;
     text-align: center;
-}
-
-.menu-image {
-    width: 200px;
-    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% / 3 - 110px); 
+} 
+.menu-section .menu-list .menu-item.menu-image {
+    max-width: 83%; 
+    aspect-ratio: 1;
+    margin-bottom: 15px; 
     object-fit: contain;
-    margin-bottom: 15px;
-}
-
-.name {
+} 
+.menu-section .menu-list .menu-item.name {
     margin: 10px 0;
     font-size: 24px;
     font-weight: bold;
@@ -285,7 +282,8 @@ header .navbar {
 
 .text {
     font-size: 16px;
-}
+    font-size: var(--font-size-1); 
+    font-weight: var(--font-weight-semibold); }
 /* Testimonials section styling */
 .testimonials-section {
     padding: 50px 0 100px;
