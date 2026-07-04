@@ -275,14 +275,14 @@ header .navbar {
     object-fit: contain;
 } 
 .menu-section .menu-list .menu-item.name {
-    margin: 10px 0;
-    font-size: 24px;
+    margin: 12px 0;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .text {
-    font-size: 16px;
-    font-size: var(--font-size-1); 
+    font-size: 12px;
+    font-size: var(--font-size-s); 
     font-weight: var(--font-weight-semibold); 
 }
 /* Testimonials section styling */
