@@ -256,6 +256,7 @@ header .navbar {
     background: var(--dark-color);
     padding: 50px 0 100px;
 }
+
 .menu-section .menu-list {
     display: flex;
     flex-wrap: wrap;
@@ -273,7 +274,7 @@ header .navbar {
     width: calc(100% / 3 - 110px);
 }
 
-.menu-section .menu-list .menu-item.menu-image {
+.menu-section .menu-list .menu-item .menu-image {
     max-width: 83%;
     aspect-ratio: 1;
     margin-bottom: 15px;
@@ -282,7 +283,7 @@ header .navbar {
 
 .menu-section .menu-list .menu-item .name {
     margin: 12px 0;
-    font-size: var(--font-size-1);
+    font-size: var(--font-size-l);
     font-weight: var(--font-weight-semibold);
 }
 
