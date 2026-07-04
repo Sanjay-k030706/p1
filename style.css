@@ -275,7 +275,7 @@ header .navbar {
 }
 
 .menu-section .menu-list .menu-item .menu-image {
-    max-width: 83%;
+    max-width: 80%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
