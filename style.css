@@ -283,7 +283,8 @@ header .navbar {
 .text {
     font-size: 16px;
     font-size: var(--font-size-1); 
-    font-weight: var(--font-weight-semibold); }
+    font-weight: var(--font-weight-semibold); 
+}
 /* Testimonials section styling */
 .testimonials-section {
     padding: 50px 0 100px;
