@@ -249,48 +249,43 @@ header .navbar {
 
 }
 
-/* Menu section styling */
-
 .menu-section {
-    color: var(--white-color);
-    background: var(--dark-color);
+    color: white;
+    background: #252525;
     padding: 50px 0 100px;
 }
 
-.menu-section .menu-list {
+.menu-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 110px;
-    align-items: center;
+    gap: 50px;
     justify-content: space-between;
 }
 
-.menu-section .menu-list .menu-item {
+.menu-item {
+    width: calc(33.33% - 40px);
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
-    width: calc(100% / 3 - 110px);
 }
 
-.menu-section .menu-list .menu-item .menu-image {
-    max-width: 83%;
-    aspect-ratio: 1;
-    margin-bottom: 15px;
+.menu-image {
+    width: 200px;
+    height: 200px;
     object-fit: contain;
+    margin-bottom: 15px;
 }
 
-.menu-section .menu-list .menu-item .name {
-    margin: 12px 0;
-    font-size: var(--font-size-l);
-    font-weight: var(--font-weight-semibold);
+.name {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.menu-section .menu-list .menu-item .text {
-    font-size: var(--font-size-s);
+.text {
+    font-size: 16px;
 }
-
 /* Testimonials section styling */
 .testimonials-section {
     padding: 50px 0 100px;
