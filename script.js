@@ -59,9 +59,9 @@ fetch("menu.json")
             li.className = "menu-item";
 
             li.innerHTML = `
-                <img src="${item.image}" alt="${item.name}" class="menu-image">
+                <img src="${item.image}" alt="${item.alt}" class="menu-image">
                 <h3 class="name">${item.name}</h3>
-                <p class="text">${item.description}</p>
+                <p class="text">${item.text}</p>
             `;
 
             menuList.appendChild(li);
