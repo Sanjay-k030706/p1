@@ -269,8 +269,6 @@ header .navbar {
     width: calc(100% / 3 - 110px); 
 } 
 .menu-section .menu-list .menu-item.menu-image {
-    height: 80%;
-    width: 90%;
     max-width: 83%; 
     aspect-ratio: 1;
     margin-bottom: 15px; 
