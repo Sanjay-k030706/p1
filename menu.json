@@ -1,40 +1,40 @@
 [
-    { 
-        "image": "Hot-beverage.jpg",
-        "alt": "Hot Beverage",
-        "name": "Hot Beverage",
-        "text": "A wide range of steaming hot coffee to make you feel fresh and energized."
-    },
-    { 
-        "image": "download.jpg", 
-        "alt": "Cold Beverage",
-        "name": "Cold Beverage",
-        "text": "Creamy and frothy cold coffee to keep you cool and refreshed."
-    }, 
-    { 
-        "image": "refresment.jpg",
-        "alt": "Refreshment",
-        "name": "Refreshment", 
-        "text": "Fresh fruit and icy drinks to make you feel refreshed."
-    },
-    {
-       "image": "download (1).jpg",
-        "alt": "Special Combos",
-        "name": "Special Combos",
-        "text": "Your favorite food and drink combinations."
-    }, 
-    { 
-        "image": "dessert.jpg",
-        "alt": "Dessert",
-        "name": "Dessert", 
-        "text": "Delicious desserts to satisfy your sweet cravings."
-    },
-    {
-        "image": "burger french fries.jpg",
-        "alt": "Burger and French Fries", 
-        "name": "Burger and French Fries",
-        "text": "Quick bites to satisfy your hunger."
-    }  
+  {
+    "image": "Hot-beverage.jpg",
+    "alt": "Hot Beverage",
+    "name": "Hot Beverage",
+    "text": "A wide range of steaming hot coffee to make you feel fresh and energized."
+  },
+  {
+    "image": "download.jpg",
+    "alt": "Cold Beverage",
+    "name": "Cold Beverage",
+    "text": "Creamy and frothy cold coffee to keep you cool and refreshed."
+  },
+  {
+    "image": "refresment.jpg",
+    "alt": "Refreshment",
+    "name": "Refreshment",
+    "text": "Fresh fruit and icy drinks to make you feel refreshed."
+  },
+  {
+    "image": "download (1).jpg",
+    "alt": "Special Combos",
+    "name": "Special Combos",
+    "text": "Your favorite food and drink combinations."
+  },
+  {
+    "image": "dessert.jpg",
+    "alt": "Dessert",
+    "name": "Dessert",
+    "text": "Delicious desserts to satisfy your sweet cravings."
+  },
+  {
+    "image": "burger french fries.jpg",
+    "alt": "Burger and French Fries",
+    "name": "Burger and French Fries",
+    "text": "Quick bites to satisfy your hunger."
+  }
 ]
-        
+]
 
