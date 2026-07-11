@@ -47,26 +47,28 @@ const swiper = new Swiper('.slider-wrapper', {
     }
   }
 });
-const menuList = document.getElementById("menuList");
-
 fetch("menu.json")
     .then(response => response.json())
-    .then(data => {
+    .then(menuItems => {
 
-        data.forEach(item => {
+        const menuList = document.getElementById("menuList");
 
-            const li = document.createElement("li");
-            li.className = "menu-item";
+        menuItems.forEach(item => {
 
-            li.innerHTML = `
-                <img src="${item.image}" alt="${item.alt}" class="menu-image">
-                <h3 class="name">${item.name}</h3>
-                <p class="text">${item.text}</p>
+            menuList.innerHTML += `
+                <li class="menu-item">
+                    <img src="images/${item.image}"
+                         alt="${item.alt}"
+                         class="menu-image">
+
+                    <h3 class="name">${item.name}</h3>
+
+                    <p class="text">${item.text}</p>
+                </li>
             `;
-
-            menuList.appendChild(li);
 
         });
 
     })
+    .catch(error => console.error("Error loading menu:", error));
     .catch(error => console.error("Error loading menu:", error));
