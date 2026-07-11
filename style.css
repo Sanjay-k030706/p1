@@ -656,16 +656,26 @@ body.show-mobile-menu .navbar .nav-menu {
     margin-right: 0;
 }
 
-.about-section .section-content {
-    gap: 70px;
-    flex-direction: column-reverse;
-}
+/* Responsive Design */
 
-.about-section .about-image-wrapper .about-image {
-   width: 100px;
-   height: 100px;
-   max-width: 250%;
-   aspect-ratio: 1; 
+@media (max-width: 768px) {
+    .about-section {
+        padding: 80px 20px;
+    }
+
+    .about-section .section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section .about-details {
+        max-width: 100%;
+    }
+
+    .about-section .about-image-wrapper .about-image {
+        width: 300px;
+        height: 300px;
+    }
 }
 
   .menu-section .menu-list {
