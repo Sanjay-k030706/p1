@@ -242,7 +242,7 @@ header .navbar {
     margin: 20px 0 30px;
     line-height: 1.8;
     font-size: var(--font-size-m);
-    color: #ffffff;
+    color: #000;
 }
 
 .about-section .social-link-list {
