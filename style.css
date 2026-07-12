@@ -211,6 +211,7 @@ header .navbar {
     justify-content: space-between;
     gap: 50px;
     flex-wrap: wrap;
+    color: #000;
 }
 
 .about-section .about-image-wrapper {
@@ -239,10 +240,10 @@ header .navbar {
 }
 
 .about-section .about-details .text {
+     color: #000;
     margin: 20px 0 30px;
     line-height: 1.8;
     font-size: var(--font-size-m);
-    color: #000;
 }
 
 .about-section .social-link-list {
